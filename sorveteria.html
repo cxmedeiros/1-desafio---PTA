@@ -5,9 +5,11 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="1º desafio de dev do PTA"> 
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="./largewindow.css">
+        <link rel="stylesheet" media="screen and (max-width: 391px)" href="./smallwindow.css">
         <title>Double Dip</title>
     </head>
+
     <body>
 
         <header class="header">
@@ -28,41 +30,41 @@
         <section class="container">
             <div class="container-small1">
                 <div class="photo1">
-                    <img src="assets/foto1.png" alt="">
+                    <img id="photo-1" src="assets/foto1.png" alt="">
                 </div>
             </div>
             <div class="container-small2">
                 <div class="photo2">
-                    <img src="assets/foto4.png" alt="">
+                    <img id="photo-2" src="assets/foto4.png" alt="">
                 </div>
             </div>
             <div class="container-small3">
                 <div class="photo3">
-                    <img src="assets/foto2.png" alt="">
+                    <img id="photo-3" src="assets/foto2.png" alt="">
                 </div>
             </div>
             <div class="container-small4">
                 <div class="photo4">
-                    <img src="assets/foto5.png" alt="">
+                    <img id="photo-4" src="assets/foto5.png" alt="">
                 </div>
             </div>
             <div class="container-large">
                 <div class="photo5">
-                    <img src="assets/foto.png" alt="">
+                    <img id="photo-5" src="assets/foto.png" alt="">
                     <p id="tablito">
                         Picolé Tablito
                     </p>
                     <p id="text-tablito">
                         Picolé de chocolate tradicional e branco 106g (R$ 0,05/g)
                     </p>
-                    <p id="cost">
+                    <p id="cost-tablito">
                         R$ 5,00
                     </p>
                 </div>
             </div>
             <div class="container-large1">
                 <div class="photo6">
-                    <img src="assets/foto3.png" alt="">
+                    <img id="photo-6" src="assets/foto3.png" alt="">
                     <p id="chicabon">
                         Chica Bon
                     </p>
@@ -97,5 +99,7 @@
                 Made with </> and <3 by Camila Xavier
             </p>
         </div>
+
     </body>
+
 </html>

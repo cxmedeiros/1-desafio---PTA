@@ -109,8 +109,6 @@ body {
     height: 119px;
     width: 120px;
     border-radius: 0px;
-    width: 120px;
-    height: 119px;
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -123,7 +121,7 @@ body {
 .container {
     background-color: #E5E5E5;
     width: 100%;
-    height: 70em; /* ajeitando navbar */
+    height: 1024px; /* ajeitando navbar */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -390,7 +388,7 @@ body {
 
 
 /*custo do tablito*/
-#cost {
+#cost-tablito {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -505,7 +503,6 @@ body {
     gap: 292px;
     position: absolute;
 
-    position: absolute;
     height: 155.02px;
     left: 0%;
     right: 0%;
@@ -517,6 +514,7 @@ body {
     padding: 0;
     
     background: #F2F2F2;
+
 }
 
 /*logo da sorveteria no footer*/
